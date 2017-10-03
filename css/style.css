@@ -1,0 +1,60 @@
+.wrap
+{
+	margin:40px;
+	padding:30px;
+	border:solid 1px white;
+}
+
+canvas {
+  width: 100%;
+  overflow:hidden;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+#progressBar {
+    width: 400px;
+    height: 22px;
+    border: 1px solid #111;
+    background-color: #292929;
+}
+
+#progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #0099ff;
+}
+
+.card
+{
+	border:solid 1px white;
+	background-color:rgba(255,255,255,0.1);
+	width:45%;
+}
+.tiny
+{
+	font-size:20px;
+}
+.medium
+{
+	font-size:30px;
+}
+.foot
+{
+	bottom:0;
+	position:fixed;
+}
+.large
+{
+	font-size:80px;
+}
+.head
+{
+	text-transform:uppercase;
+	font-weight:300;
+}
